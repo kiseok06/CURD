@@ -1,10 +1,8 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-// import Board from './components/board' 
 import axios from 'axios';
 
 function App() {
-//   const [id, setID] = useState(0)
   const [data, setData] = useState([]);
   const [newData, setNewData] = useState({context: '', name: '' });
   const [selectedData, setSelectedData] = useState(null);
